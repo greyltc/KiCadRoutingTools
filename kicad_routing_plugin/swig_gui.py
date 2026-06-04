@@ -1537,7 +1537,7 @@ class RoutingDialog(wx.Dialog):
 
         # Reset advanced parameters
         self.impedance_check.SetValue(False)
-        self.impedance_value.SetValue(50.0)
+        self.impedance_value.SetValue(50)
         self.max_iterations.SetValue(defaults.MAX_ITERATIONS)
         self.max_probe_iterations.SetValue(defaults.MAX_PROBE_ITERATIONS)
         self.heuristic_weight.SetValue(defaults.HEURISTIC_WEIGHT)
